@@ -1,0 +1,153 @@
+@media(max-width:1400px) {
+    .header__bg {
+        width: 100%
+    }
+}
+
+@media(max-width:1200px) {
+    .header__content {
+        flex-direction: column;
+        justify-content: center
+    }
+
+    .course__right_allcards {
+        justify-content: center
+    }
+
+    .course__right_title {
+        text-align: center
+    }
+
+    .course {
+        flex-direction: row-reverse
+    }
+
+    .credit__cards {
+        flex-direction: column
+    }
+
+    .app__cards {
+        flex-direction: column;
+        align-items: center
+    }
+
+    .bestCards {
+        flex-direction: column;
+        text-align: center
+    }
+}
+
+@media(max-width:992px) {
+    .nav {
+        flex-direction: column
+    }
+
+    .nav__right {
+        flex-direction: column;
+        gap: 20px
+    }
+
+    .nav__list {
+        margin-top: 20px
+    }
+
+    .course {
+        flex-direction: column-reverse
+    }
+
+    .course__left img,
+    .bestCards__right img {
+        width: 350px;
+        margin-top: 30px
+    }
+}
+
+@media(max-width:768px) {
+    .header__content_title {
+        text-align: center
+    }
+
+    .header__img {
+        width: 500px
+    }
+
+    .app__right_card {
+        width: 100%
+    }
+
+    .header__market {
+        height: initial;
+        gap: 20px;
+        flex-direction: column;
+        padding: 30px;
+        bottom: -150px;
+        width: 100%
+    }
+
+    .course {
+        margin-top: 175px
+    }
+
+    .app__btns {
+        flex-direction: column;
+        margin-top: 30px;
+        align-items: center
+    }
+
+    .header__content {
+        height: 575px
+    }
+
+    .app__right_card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 30px
+    }
+
+    .app__right_card:last-of-type {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 30px
+    }
+}
+
+@media(max-width:576px) {
+    .header__img {
+        width: 100%;
+    }
+
+    .course__left img,
+    .bestCards__right img {
+        width: 320px;
+    }
+
+    .nav__list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .credit__title {
+        text-align: center;
+    }
+
+    .app__left_text {
+        text-align: center;
+    }
+
+    .credit__card {
+        flex-direction: column;
+    }
+
+    .credit__card__desc {
+        align-items: center;
+        justify-content: center;
+    }
+    .app__left_card img {
+        width: 100%;
+    }
+    .app__btn{
+        width: 100%;
+    }
+}
